@@ -56,7 +56,7 @@ h1 {
   h1 {
     font-size: 2rem;
     text-align: center;
-    margin-bottom: 10rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -78,7 +78,7 @@ h2 {
   h2 {
     margin-top: 2.5rem;
     font-size: 1.75rem;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
     margin-right: -4rem;
   }
 }
@@ -105,6 +105,7 @@ h4, h5, h6 {
 p, ul, ol, dl, table, pre, blockquote {
   margin-top: 0;
   margin-bottom: 1.5rem;
+  text-align: justify;
 }
 
 ul, ol {
