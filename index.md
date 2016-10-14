@@ -2,31 +2,36 @@
 layout: default
 ---
 
-## A Jekyll template for publishing single-page websites and articles that are incredibly readable and fully responsive
+<!--## A Jekyll template for publishing single-page websites and articles that are incredibly readable and fully responsive
+{: style="float:left; text-align: center"} -->
 
 Rafael Pires
+<br/>Departement of Computer Sciens and Information Technologies
+<br/>Saint-Petersburg State University of Aerospace Instrumentation
+<br/>Saint-Petersburg, Russie
+<br/>Email: dcsit@suai.ru
 {: style="float:left; text-align: center; min-width: 33%"}
 Marcelo Blabla
 {: style="float:left; text-align: center; min-width: 33%"}
 Pascal babache
-<br />jhgjhjkn,
+<br/>jhgjhjkn,
 {: style="float:left; text-align: center; min-width: 33%"}
 
 ### Nice, clean, reading!
-{: style="clear:both;"}
+{: style="clear:both; text-align: center;"}
 Good clean read is set up with readability first in mind. Whatever you want to communicate here can be read easily, and without distraction. Of course, it's fully responsive, which means people can read it naturally on any phone, or tablet. Write it in markdown in <code>index.md</code> and get a beautifully published piece.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-### With footnotes too!
+<!--### With footnotes too!-->
 
 Back up your stuff with solid, clean citations. Footnotes can be written in markdown and appear like this.[^1] Use as many as you like.[^2]
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-### Add social sharing buttons
+<!--### Add social sharing buttons
 
 Simply add the following line anywhere in your markdown:
 
@@ -35,11 +40,11 @@ Simply add the following line anywhere in your markdown:
 {% endraw %}
 </code></pre>
 
-and get a nice responsive sharing ribbon.
+and get a nice responsive sharing ribbon.-->
 
 {% include sharing.html %}
 
-Add this at the bottom, or the top, or between every other paragraph if you're desprate for social validation.
+<!--Add this at the bottom, or the top, or between every other paragraph if you're desprate for social validation.
 
 Just remember to customize the buttons to fit your url in the `_includes/sharing.html` file. These buttons are made available and customizable by the good folks at kni-labs. See the documentation at [https://github.com/kni-labs/rrssb](https://github.com/kni-labs/rrssb) for more information.
 
@@ -61,10 +66,10 @@ If you need them, you can stick any of the [605 icons](http://fontawesome.io/ico
 
 Images play nicely with this template as well. Add diagrams or charts to make your point, and the template will fit them in appropriately.
 
-<img src="images/hello.svg" alt="sample image">
+<img src="images/hello.svg" alt="sample image"> 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+-->
 <hr>
 
 ##### Footnotes:
