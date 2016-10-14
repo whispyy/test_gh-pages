@@ -5,8 +5,8 @@ layout: default
 <!--## A Jekyll template for publishing single-page websites and articles that are incredibly readable and fully responsive
 {: style="float:left; text-align: center"} -->
 
-Rafael Pires
-<br/>Departement of Computer Sciens and Information Technologies
+
+Departement of Computer Sciens and Information Technologies
 <br/>Saint-Petersburg State University of Aerospace Instrumentation
 <br/>Saint-Petersburg, Russie
 <br/>Email: dcsit@suai.ru

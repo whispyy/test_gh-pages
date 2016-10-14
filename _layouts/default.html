@@ -22,6 +22,15 @@
   <article>
    <div class="container">
     <h1><a href="./">{{ site.tag_text }}</a></h1>
+    {% for author in site.authors %}
+      <div class="auteur">
+        {{ author.name }}
+        <br />
+        {{ author.mail }}
+        <br />
+        {{ author.location }}
+      </div>
+    {% endfor %}
     {{ content }}
     </div>
   </article>

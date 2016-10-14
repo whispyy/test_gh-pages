@@ -5,7 +5,23 @@ description: A responsive template for publishing single-page websites, articles
 url: "whispyy.github.io"
 baseurl: "/test_gh-pages"
 keywords: "HTML, CSS, XML"
-author: "Ex Ample"
+
+authors:
+  - name: "JF Durand"
+    mail: "orange@fruit.com"
+    location: "orange juice avenue"
+  - name: "Vasilina Frolkova"
+    mail: "yabloko@fruit.com"
+    location: "near orange juice avenue"
+
+#authors: 
+#	- name: "Rafael Pires"
+#	  mail: "pires@ru.ru"
+#	  location: "dpt bla"
+#	- name: "Va Si Li Na"
+#	  mail: "somewhere@in.ru"
+#	  location: "in a yellow car"
+
 font-awesome-include: true # make this false if you don't need font-awesome
 
 # Build settings
