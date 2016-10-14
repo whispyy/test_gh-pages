@@ -22,6 +22,7 @@
   <article>
    <div class="container">
     <h1><a href="./">{{ site.tag_text }}</a></h1>
+    <div class="auteurs">
     {% for author in site.authors %}
       <div class="auteur">
         {{ author.name }}
@@ -31,6 +32,7 @@
         {{ author.location }}
       </div>
     {% endfor %}
+    </div>
     {{ content }}
     </div>
   </article>
