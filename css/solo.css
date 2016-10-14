@@ -105,6 +105,7 @@ h4, h5, h6 {
 p, ul, ol, dl, table, pre, blockquote {
   margin-top: 0;
   margin-bottom: 1.5rem;
+  text-align: justify;
 }
 
 ul, ol {
