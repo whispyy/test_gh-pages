@@ -1,10 +1,10 @@
 # Site settings
-title: Good Clean Read
-tag_text: Lorem ipsum dolor seit amet consider-plouflouf
+title: A publication made for HTML, CSS and JS !
+#tag_text: Lorem ipsum dolor seit amet consider-plouflouf
 description: A responsive template for publishing single-page websites, articles that are easy on the eyes
 url: "whispyy.github.io"
 baseurl: "/test_gh-pages"
-keywords: "HTML, CSS, XML"
+keywords: "HTML, CSS, JS"
 
 authors:
   - name: "JF Durand"

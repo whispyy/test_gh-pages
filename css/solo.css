@@ -217,21 +217,25 @@ pre > code {
 }
 
 /*Gestion des auteurs (Аютёр)*/
-.authors{
-  
-
+.auteurs{
+  /*border: solid 3px red;*/
 }
 
 .auteur{
-
   font-size: 75%;
   float: left;
   text-align: center;
   /*min-width: 33%;*/
   width: 48%;
   margin-bottom: 1%;
-  border-style: inset;
+  border: dashed 2px grey;
   margin-left: 1%; 
+
+}
+
+/*contenu*/
+.contenu{
+  clear: both;
 
 }
 

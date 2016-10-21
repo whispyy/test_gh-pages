@@ -21,9 +21,10 @@
 <body>
   <article>
    <div class="container">
-    <h1><a href="./">{{ site.tag_text }}</a></h1>
+    <h1><a href="./">{{ site.title }}</a></h1>
     <div class="auteurs">
-    {% for author in site.authors %}
+      <p>Auteurs</p>
+      {% for author in site.authors %}
       <div class="auteur">
         {{ author.name }}
         <br />
@@ -31,10 +32,12 @@
         <br />
         {{ author.location }}
       </div>
-    {% endfor %}
+      {% endfor %}
     </div>
-    {{ content }}
+    <div class="contenu">
+      {{ content }}
     </div>
+   </div>
   </article>
 <script src="{{ site.baseurl }}/scripts/rrssb.min.js"></script>
 </body>
