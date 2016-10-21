@@ -100,6 +100,7 @@ h3 {
 h4, h5, h6 {
   margin: 1.5rem -1rem 1.5rem -1rem;
   font-size: 1.5rem;
+  padding-left: 3%;
 }
 
 p, ul, ol, dl, table, pre, blockquote {
@@ -236,6 +237,7 @@ pre > code {
 /*contenu*/
 .contenu{
   clear: both;
+  margin-bottom: 2%;
 
 }
 
