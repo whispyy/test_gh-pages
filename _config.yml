@@ -1,0 +1,36 @@
+# Site settings
+title: A publication made for HTML, CSS and JS !
+#tag_text: Lorem ipsum dolor seit amet consider-plouflouf
+description: A responsive template for publishing single-page websites, articles that are easy on the eyes
+url: "whispyy.github.io"
+baseurl: "/test_gh-pages"
+keywords: "HTML, CSS, JS"
+
+authors:
+  - name: "JF Durand"
+    mail: "orange@fruit.com"
+    location: "orange juice avenue"
+  - name: "Vasilina Frolkova"
+    mail: "yabloko@fruit.com"
+    location: "near orange juice avenue"
+  - name: "Rigole Pas"
+    mail: "pasdrole@gniagnia.com"
+    location: "sur la scene"
+
+#authors: 
+#	- name: "Rafael Pires"
+#	  mail: "pires@ru.ru"
+#	  location: "dpt bla"
+#	- name: "Va Si Li Na"
+#	  mail: "somewhere@in.ru"
+#	  location: "in a yellow car"
+
+font-awesome-include: true # make this false if you don't need font-awesome
+
+# Build settings
+markdown: kramdown
+
+exclude: ["README.md"]
+
+gems:
+  - jekyll-seo-tag
