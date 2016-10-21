@@ -217,15 +217,22 @@ pre > code {
 }
 
 /*Gestion des auteurs (Аютёр)*/
-.auteurs{
-  border: dashed 1px black;
+.authors{
+  
+
 }
 
 .auteur{
+
+  font-size: 75%;
   float: left;
   text-align: center;
   /*min-width: 33%;*/
-  width: 50%;
+  width: 48%;
+  margin-bottom: 1%;
+  border-style: inset;
+  margin-left: 1%; 
+
 }
 
 /* This gets Google to fall into place */

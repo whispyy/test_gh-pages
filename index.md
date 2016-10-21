@@ -6,7 +6,7 @@ layout: default
 {: style="float:left; text-align: center"} -->
 
 
-Departement of Computer Sciens and Information Technologies
+<!--Departement of Computer Sciens and Information Technologies
 <br/>Saint-Petersburg State University of Aerospace Instrumentation
 <br/>Saint-Petersburg, Russie
 <br/>Email: dcsit@suai.ru
@@ -15,7 +15,7 @@ Marcelo Blabla
 {: style="float:left; text-align: center; min-width: 33%"}
 Pascal babache
 <br/>jhgjhjkn,
-{: style="float:left; text-align: center; min-width: 33%"}
+{: style="float:left; text-align: center; min-width: 33%"} -->
 
 ### Nice, clean, reading!
 {: style="clear:both; text-align: center;"}
