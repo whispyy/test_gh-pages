@@ -6,6 +6,8 @@ url: "whispyy.github.io"
 baseurl: "/test_gh-pages"
 keywords: "HTML, CSS, JS"
 
+repository: whispyy/test_gh-pages
+
 authors:
   - name: "JF Durand"
     mail: "orange@fruit.com"
