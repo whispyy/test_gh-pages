@@ -15,7 +15,6 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/rrssb.css">
 
   <script src="{{ site.baseurl }}/scripts/jquery.js"></script>
-  <script src="{{ site.baseurl }}/scripts/github.js"></script>
   <link rel="canonical" href="{{ site.url }}" />
   {% seo %}
 </head>
@@ -40,6 +39,16 @@
     </div>
    </div>
   </article>
+  <div id="w">
+    <h1>Simple Github API comm</h1>
+    <p>Api Github test de communication</p>
+    
+    <input type="text" name="ghusername" id="ghusername" placeholder="Github username...">
+    
+    <a href="#" id="ghsubmitbtn">Pull User Data</a>
+    
+    <div id="ghapidata" class="clearfix"></div>
+  </div>
   <script src="{{ site.baseurl }}/scripts/rrssb.min.js"></script>
   <script src="{{ site.baseurl }}/scripts/script.js"></script>
 </body>
