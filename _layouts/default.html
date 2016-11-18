@@ -13,12 +13,15 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
   {% if site.font-awesome-include %}<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">{% endif %}
   <link rel="stylesheet" href="{{ site.baseurl }}/css/rrssb.css">
-
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css">
+  <!-- lib - js -->
   <script src="{{ site.baseurl }}/scripts/jquery.js"></script>
+  <script src="{{ site.baseurl }}/scripts/bootstrap.min.js"></script>
+  <!-- end lib - js -->
   <link rel="canonical" href="{{ site.url }}" />
   {% seo %}
 </head>
-<body>
+<body onload="loadComment()">
   <article>
    <div class="container">
     <h1><a href="./">{{ site.title }}</a></h1>
@@ -38,6 +41,11 @@
     </div>
    </div>
   </article>
-<script src="{{ site.baseurl }}/scripts/rrssb.min.js"></script>
+  <div id="comments" class="list-group"></div>
+  <div id="addComment">
+    <a href="https://github.com/{{site.username}}/{{site.reponame}}/issues" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" target="_blank">Add Issue</a>
+  </div>
+  <script src="{{ site.baseurl }}/scripts/rrssb.min.js"></script>
+  <script src="{{ site.baseurl }}/scripts/retrieveIssues.js"></script>
 </body>
 </html>

@@ -1,11 +1,12 @@
 # Site settings
 title: A publication made for HTML, CSS and JS !
-#tag_text: Lorem ipsum dolor seit amet consider-plouflouf
 description: A responsive template for publishing single-page websites, articles that are easy on the eyes
+keywords: "HTML, CSS, JS"
 url: "whispyy.github.io"
 baseurl: "/test_gh-pages"
-keywords: "HTML, CSS, JS"
 
+
+# authors of the publication
 authors:
   - name: "JF Durand"
     mail: "orange@fruit.com"
@@ -17,13 +18,10 @@ authors:
     mail: "pasdrole@gniagnia.com"
     location: "sur la scene"
 
-#authors: 
-#	- name: "Rafael Pires"
-#	  mail: "pires@ru.ru"
-#	  location: "dpt bla"
-#	- name: "Va Si Li Na"
-#	  mail: "somewhere@in.ru"
-#	  location: "in a yellow car"
+# using git issues as comment
+username: "Whispyy"
+reponame: "test_gh-pages"
+
 
 font-awesome-include: true # make this false if you don't need font-awesome
 
