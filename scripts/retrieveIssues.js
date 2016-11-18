@@ -9,8 +9,8 @@
   }
 
 function loadComment() {
-    var username = 'whispyy';
-    var reponame = 'API-git'
+    var username = user;
+    var reponame = repo;
     var requri   = 'https://api.github.com/users/'+username;
     //var repouri  = 'https://api.github.com/users/'+username+'/repos';
     var issuesuri = 'https://api.github.com/repos/'+username+'/'+reponame+'/issues';
