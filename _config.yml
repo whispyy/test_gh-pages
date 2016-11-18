@@ -1,6 +1,6 @@
 # Site settings
-title: A publication made for HTML, CSS and JS !
-description: A responsive template for publishing single-page websites, articles that are easy on the eyes
+title: "Open Science Paper"
+description: "A modern web framework for publishing true Open Science papers on GitHub."
 keywords: "HTML, CSS, JS"
 url: ""
 baseurl: "/test_gh-pages"
@@ -9,14 +9,14 @@ baseurl: "/test_gh-pages"
 # authors of the publication
 authors:
   - name: "JF Durand"
-    mail: "orange@fruit.com"
-    location: "orange juice avenue"
+    mail: "jean-frederic.durand@etudiant.univ-lille1.fr"
+    location: "Cité Scientifique, 59655 Villeneuve d'Ascq"
   - name: "Vasilina Frolkova"
-    mail: "yabloko@fruit.com"
-    location: "near orange juice avenue"
-  - name: "Rigole Pas"
-    mail: "pasdrole@gniagnia.com"
-    location: "sur la scene"
+    mail: "vasilina.frolkova@etudiant.univ-lille1.fr"
+    location: "Cité Scientifique, 59655 Villeneuve d'Ascq"
+  - name: "Third Person"
+    mail: "third@person.com"
+    location: "Somewhere"
 
 # using git issues as comment
 username: "Whispyy"
