@@ -46,10 +46,10 @@ function loadComment() {
           var outhtml = "";
           if(issues.length == 0) { outhtml = outhtml + '<p>No Comments!</p></div>'; }
           else {
-            outhtml = outhtml + '<p><strong>Comments:</strong></p>';
+            outhtml = outhtml + '<h7><strong>Comments:</strong></h7>';
             $.each(issues, function(index) {
-              outhtml = outhtml + '<a href="'+issues[index].html_url+'" target="_blank" class="list-group-item"><h4 class="list-group-item-heading">'+issues[index].user.login+
-                          ' : '+issues[index].title+'</h4>'+
+              outhtml = outhtml + '<a href="'+issues[index].html_url+'" target="_blank" class="list-group-item"><h8 class="list-group-item-heading">'+issues[index].user.login+
+                          ' : '+issues[index].title+'</h8>'+
                           '<p class="list-group-item-text">'+issues[index].body+'</p></a>';
             });
             outhtml = outhtml + '</div>'; 

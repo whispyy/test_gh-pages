@@ -25,6 +25,7 @@
   <article>
    <div class="container">
     <h1><a href="./">{{ site.title }}</a></h1>
+    <nav class="navbar navbar-inverse">
     <div class="auteurs">
      {% for author in site.authors %}
       <div class="auteur">
@@ -36,15 +37,16 @@
       </div>
       {% endfor %}
     </div>
-    <div class="contenu">
+    </nav>
+      <div class="contenu">
       {{ content }}
     </div>
       <div id="comments" class="list-group"></div>
-  <div id="addComment">
-    <a href="https://github.com/{{site.username}}/{{site.reponame}}/issues" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" target="_blank">Add Issue</a>
-  </div>
-   </div>
-  </article>
+        <div id="addComment">
+           <a href="https://github.com/{{site.username}}/{{site.reponame}}/issues" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" target="_blank">Add Issue</a>
+         </div>
+      </div>
+   </article>
   <script type="text/javascript">
   var user = "{{ site.username }}"
   var repo = "{{ site.reponame }}"

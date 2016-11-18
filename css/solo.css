@@ -97,10 +97,28 @@ h3 {
   }
 }
 
-h4, h5, h6 {
+h4 {
+  margin-left: 0.5px;
+  margin-top:  30px!important;
+  padding-left: 3%;
+
+}
+
+h5, h6 {
   margin: 1.5rem -1rem 1.5rem -1rem;
   font-size: 1.5rem;
   padding-left: 3%;
+}
+
+h7 {
+  margin-top: 15rem;
+  font-size: 20px;
+  margin-left: 0.5rem;
+}
+
+h8 {
+  margin-left: 0.5px;
+  font-size: 18px;
 }
 
 p, ul, ol, dl, table, pre, blockquote {
@@ -217,20 +235,18 @@ pre > code {
  }
 }
 
-/*Gestion des auteurs (Аютёр)*/
-.auteurs{
-  /*border: solid 3px red;*/
-}
-
 .auteur{
-  font-size: 75%;
+  font-size: 85%;
   float: left;
   text-align: center;
   /*min-width: 33%;*/
   width: 48%;
   margin-bottom: 1%;
-  border: dashed 2px grey;
+  /*border: dashed 2px grey;*/
   margin-left: 1%; 
+  color: #FFF;
+  font-family: Verdana,serif;
+  font-weight: bold;
 
 }
 
@@ -292,5 +308,13 @@ pre > code {
 
 .sharing-buttons {
 	width: 100%;
+}
+
+.list-group {
+  margin-top: 45px;
+}
+
+.strong {
+  font-size: 16px;
 }
 }
