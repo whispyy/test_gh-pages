@@ -8,21 +8,14 @@
     });
   }
 
-$(function(){
-  $('#ghsubmitbtn').on('click', function(e){
-    e.preventDefault();
-    $('#ghapidata').html('<div id="loader"><img src="css/loader.gif" alt="loading..."></div>');
-    
-    var username = $('#ghusername').val();
+function loadComment() {
+    var username = 'whispyy';
+    var reponame = 'API-git'
     var requri   = 'https://api.github.com/users/'+username;
-    var repouri  = 'https://api.github.com/users/'+username+'/repos';
+    //var repouri  = 'https://api.github.com/users/'+username+'/repos';
+    var issuesuri = 'https://api.github.com/repos/'+username+'/'+reponame+'/issues';
     
     requestJSON(requri, function(json) {
-      if(json.message == "Not Found" || username == '') {
-        $('#ghapidata').html("<h2>No User Info Found</h2>");
-      }
-      
-      else {
         // else we have a user and we display their info
         var fullname   = json.name;
         var username   = json.login;
@@ -42,24 +35,24 @@ $(function(){
         outhtml = outhtml + '<div class="repolist clearfix">';
 
 
-        var repositories;
-        $.getJSON(repouri, function(json){
-          repositories = json;   
+        var issues;
+        $.getJSON(issuesuri, function(json){
+          issues = json;   
           outputPageContent();                
         });          
         
         function outputPageContent() {
-          if(repositories.length == 0) { outhtml = outhtml + '<p>No repos!</p></div>'; }
+          if(issues.length == 0) { outhtml = outhtml + '<p>No Comments!</p></div>'; }
           else {
-            outhtml = outhtml + '<p><strong>Repos List:</strong></p> <ul>';
-            $.each(repositories, function(index) {
-              outhtml = outhtml + '<li><a href="'+repositories[index].html_url+'" target="_blank">'+repositories[index].name + '</a></li>';
+            outhtml = outhtml + '<p><strong>Comments:</strong></p>';
+            $.each(issues, function(index) {
+              outhtml = outhtml + '<a href="'+issues[index].html_url+'" target="_blank" class="list-group-item"><h4 class="list-group-item-heading">'+issues[index].user.login+
+                          ' : '+issues[index].title+'</h4>'+
+              					  '<p class="list-group-item-text">'+issues[index].body+'</p></a>';
             });
-            outhtml = outhtml + '</ul></div>'; 
+            outhtml = outhtml + '</div>'; 
           }
-          $('#ghapidata').html(outhtml);
+          $('#comments').html(outhtml);
         } // end outputPageContent()
-      } // end else statement
     }); // end requestJSON Ajax call
-  }); // end click event handler
-});
+}
