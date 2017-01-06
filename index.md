@@ -5,7 +5,7 @@ layout: default
 
 #### ABSTRACT
 
-A modern web framework for publishing true Open Science papers on GitHub.
+[](#1)A modern web framework for publishing true Open Science papers on GitHub.
 
 
 #### INTRODUCTION
